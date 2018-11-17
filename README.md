@@ -3,7 +3,7 @@ In this repo I tried to build a web service in Julia that can give prediction fr
 
 
 # Package for web service 
-I am using the package HTTP.jl.
+I am using the package HTTP.jl [https://github.com/JuliaWeb/HTTP.jl].
 
 # Evaluating prediction speed
-I use the package BenchmarkTools.jl.
+I use the package BenchmarkTools.jl [https://github.com/JuliaCI/BenchmarkTools.jl].
