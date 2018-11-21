@@ -7,3 +7,9 @@ I am using the package HTTP.jl [https://github.com/JuliaWeb/HTTP.jl].
 
 # Evaluating prediction speed
 I use the package BenchmarkTools.jl [https://github.com/JuliaCI/BenchmarkTools.jl].
+
+# Example Calling the Service
+
+`res = HTTP.request("POST", "http://localhost:8081", [], "5, -15")`
+
+`println(res.body)`
